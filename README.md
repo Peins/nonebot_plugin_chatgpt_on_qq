@@ -15,6 +15,16 @@
 
 </div>
 
+## TODO: 
+- [ ] 修复管理员，批量删除会话，拉黑用户
+- [x] cf worker支持-->https://zhuanlan.zhihu.com/p/613370610
+- [x] arm支持(~去掉openai/tiktoken~)https://github.com/openai/tiktoken/issues/23, 0.3.1 release along with aarch64 wheels.
+- [ ] 优化触发指令，@直接触发
+- [x] ~根据回答长短进行合并消息发送~ 容易被tx风控
+- [ ] 余额查询
+- [ ] 开启/关闭上下文
+- [ ] 指定人进行cd限制，，，等
+- [ ] token显示？
 
 ## 安装  
 推荐使用nb plugin install nonebot_plugin_chatgpt_on_qq 一键安装
